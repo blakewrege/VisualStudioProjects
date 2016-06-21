@@ -1,0 +1,10 @@
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\bin\Debug\Client.exe.config
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\bin\Debug\Client.exe
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\bin\Debug\Client.pdb
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\bin\Debug\NetComm.dll
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\obj\x86\Debug\Client.MainDisplay.resources
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\obj\x86\Debug\Client.Properties.Resources.resources
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\obj\x86\Debug\Client.exe
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Client\Client\obj\x86\Debug\Client.pdb

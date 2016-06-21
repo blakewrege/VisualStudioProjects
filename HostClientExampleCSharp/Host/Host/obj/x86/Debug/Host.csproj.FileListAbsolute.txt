@@ -1,0 +1,1 @@
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\bin\Debug\Host.exe.config

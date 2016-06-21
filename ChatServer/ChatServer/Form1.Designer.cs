@@ -28,21 +28,11 @@ namespace ChatServer
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnListen = new System.Windows.Forms.Button();
             this.lbIp = new System.Windows.Forms.Label();
             this.txtLog = new System.Windows.Forms.TextBox();
             this.ipAddress = new System.Windows.Forms.TextBox();
+            this.btnListen = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
-            // 
-            // btnListen
-            // 
-            this.btnListen.Location = new System.Drawing.Point(245, 10);
-            this.btnListen.Name = "btnListen";
-            this.btnListen.Size = new System.Drawing.Size(106, 23);
-            this.btnListen.TabIndex = 0;
-            this.btnListen.Text = "Start Listening";
-            this.btnListen.UseVisualStyleBackColor = true;
-            this.btnListen.Click += new System.EventHandler(this.btnListen_Click);
             // 
             // lbIp
             // 
@@ -75,15 +65,27 @@ namespace ChatServer
             this.ipAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ipAddress.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // btnListen
+            // 
+            this.btnListen.Appearance = System.Windows.Forms.Appearance.Button;
+            this.btnListen.AutoSize = true;
+            this.btnListen.Location = new System.Drawing.Point(245, 10);
+            this.btnListen.Name = "btnListen";
+            this.btnListen.Size = new System.Drawing.Size(84, 23);
+            this.btnListen.TabIndex = 6;
+            this.btnListen.Text = "Start Listening";
+            this.btnListen.UseVisualStyleBackColor = true;
+            this.btnListen.CheckedChanged += new System.EventHandler(this.btnListen_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(368, 231);
+            this.Controls.Add(this.btnListen);
             this.Controls.Add(this.ipAddress);
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.lbIp);
-            this.Controls.Add(this.btnListen);
             this.Name = "Form1";
             this.Text = "Chat Server";
             this.ResumeLayout(false);
@@ -92,11 +94,10 @@ namespace ChatServer
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnListen;
         private System.Windows.Forms.Label lbIp;
         private System.Windows.Forms.TextBox txtLog;
         private System.Windows.Forms.TextBox ipAddress;
+        private System.Windows.Forms.CheckBox btnListen;
     }
 }
 

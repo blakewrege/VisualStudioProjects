@@ -1,0 +1,8 @@
+C:\Users\blake\Documents\Visual Studio 2015\Projects\receivefiles\ReceiveFiles\ReceiveFiles\bin\Debug\ReceiveFiles.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\receivefiles\ReceiveFiles\ReceiveFiles\bin\Debug\ReceiveFiles.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\receivefiles\ReceiveFiles\ReceiveFiles\obj\Debug\ReceiveFiles.csprojResolveAssemblyReference.cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\receivefiles\ReceiveFiles\ReceiveFiles\obj\Debug\ReceiveFiles.Form1.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\receivefiles\ReceiveFiles\ReceiveFiles\obj\Debug\ReceiveFiles.Properties.Resources.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\receivefiles\ReceiveFiles\ReceiveFiles\obj\Debug\ReceiveFiles.csproj.GenerateResource.Cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\receivefiles\ReceiveFiles\ReceiveFiles\obj\Debug\ReceiveFiles.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\receivefiles\ReceiveFiles\ReceiveFiles\obj\Debug\ReceiveFiles.pdb

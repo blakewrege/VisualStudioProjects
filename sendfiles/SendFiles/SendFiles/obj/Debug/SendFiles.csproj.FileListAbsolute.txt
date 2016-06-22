@@ -1,0 +1,7 @@
+C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\bin\Debug\SendFiles.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\bin\Debug\SendFiles.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.Form1.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.Properties.Resources.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.csproj.GenerateResource.Cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.pdb

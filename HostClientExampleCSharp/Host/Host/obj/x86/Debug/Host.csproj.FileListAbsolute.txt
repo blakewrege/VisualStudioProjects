@@ -1,1 +1,11 @@
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\bin\Debug\Host.exe.config
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\bin\Debug\Host.exe.config
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\bin\Debug\Host.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\bin\Debug\Host.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\bin\Debug\NetComm.dll
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\obj\x86\Debug\Host.csprojResolveAssemblyReference.cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\obj\x86\Debug\Host.MainDisplay.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\obj\x86\Debug\Host.Properties.Resources.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\obj\x86\Debug\Host.csproj.GenerateResource.Cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\obj\x86\Debug\Host.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExampleCSharp\Host\Host\obj\x86\Debug\Host.pdb

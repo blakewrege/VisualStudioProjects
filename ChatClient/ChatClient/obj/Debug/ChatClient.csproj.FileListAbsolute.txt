@@ -6,3 +6,5 @@ C:\Users\bjw\Documents\Visual Studio 2015\Projects\ChatClient\ChatClient\obj\Deb
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\ChatClient\ChatClient\obj\Debug\ChatClient.Form1.resources
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\ChatClient\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.Cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\ChatClient\ChatClient\obj\Debug\ChatClient.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\ChatClient\ChatClient\obj\Debug\ChatClient.pdb

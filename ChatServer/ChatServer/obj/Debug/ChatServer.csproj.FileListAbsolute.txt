@@ -6,3 +6,5 @@ C:\Users\bjw\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Deb
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ChatServer.Properties.Resources.resources
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ChatServer.csproj.GenerateResource.Cache
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ChatServer.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ChatServer.pdb

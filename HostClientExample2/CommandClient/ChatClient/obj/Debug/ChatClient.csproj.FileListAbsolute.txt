@@ -1,0 +1,15 @@
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\bin\Debug\ChatClient.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\bin\Debug\ChatClient.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\bin\Debug\CommandClient.dll
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\bin\Debug\P_0_0_0.U_0.dll
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\bin\Debug\CommandClient.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\bin\Debug\CommandClient.xml
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\bin\Debug\P_0_0_0.U_0.xml
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\obj\Debug\ChatClient.frmPrivate.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\obj\Debug\ChatClient.frmMain.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\obj\Debug\ChatClient.frmLogin.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.Cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\obj\Debug\ChatClient.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\ChatClient\obj\Debug\ChatClient.pdb

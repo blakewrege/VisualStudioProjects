@@ -1,0 +1,6 @@
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\CommandClient\bin\Debug\CommandClient.XML
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\CommandClient\bin\Debug\CommandClient.dll
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\CommandClient\bin\Debug\CommandClient.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\CommandClient\obj\Debug\CommandClient.csprojResolveAssemblyReference.cache
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\CommandClient\obj\Debug\CommandClient.dll
+C:\Users\blake\Documents\Visual Studio 2015\Projects\HostClientExample2\CommandClient\CommandClient\obj\Debug\CommandClient.pdb

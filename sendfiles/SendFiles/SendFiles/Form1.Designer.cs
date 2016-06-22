@@ -90,6 +90,7 @@ namespace SendFiles
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(131, 20);
             this.txtPort.TabIndex = 5;
+            this.txtPort.Text = "29250";
             // 
             // btnSend
             // 

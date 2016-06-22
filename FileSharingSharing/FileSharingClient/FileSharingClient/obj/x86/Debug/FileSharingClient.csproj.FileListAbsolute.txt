@@ -1,0 +1,16 @@
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\bin\Debug\FileSharingClient.exe
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\bin\Debug\FileSharingClient.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.Form1.resources
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.exe
+c:\users\administrator\documents\visual studio 2010\Projects\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingSharing\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingSharing\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingSharing\FileSharingClient\FileSharingClient\bin\Debug\FileSharingClient.exe
+C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingSharing\FileSharingClient\FileSharingClient\bin\Debug\FileSharingClient.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingSharing\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.Form1.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingSharing\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.Properties.Resources.resources
+C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingSharing\FileSharingClient\FileSharingClient\obj\x86\Debug\FileSharingClient.csproj.GenerateResource.Cache

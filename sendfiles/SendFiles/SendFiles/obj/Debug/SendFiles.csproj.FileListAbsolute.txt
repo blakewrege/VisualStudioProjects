@@ -5,3 +5,4 @@ C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFil
 C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.csproj.GenerateResource.Cache
 C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.exe
 C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.pdb
+C:\Users\blake\Documents\Visual Studio 2015\Projects\sendfiles\SendFiles\SendFiles\obj\Debug\SendFiles.csprojResolveAssemblyReference.cache

@@ -82,7 +82,7 @@ namespace ReceiveFiles
                             DialogSave.Filter = "All files (*.*)|*.*";
                             DialogSave.RestoreDirectory = true;
                             DialogSave.Title = "Where do you want to save the file?";
-                            DialogSave.InitialDirectory = @"C:/";
+                            DialogSave.InitialDirectory = "C:\Users\Blake\Desktop";
                             if (DialogSave.ShowDialog() == DialogResult.OK)
                                 SaveFileName = DialogSave.FileName;
                             if (SaveFileName != string.Empty)

@@ -1,0 +1,8 @@
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppClient\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.exe
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppClient\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.pdb
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppClient\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingAppClient.csprojResolveAssemblyReference.cache
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppClient\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.Form1.resources
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppClient\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.Properties.Resources.resources
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppClient\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingAppClient.csproj.GenerateResource.Cache
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppClient\FileSharingApp\FileSharingApp\bin\Debug\FileSharingApp.exe
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppClient\FileSharingApp\FileSharingApp\bin\Debug\FileSharingApp.pdb

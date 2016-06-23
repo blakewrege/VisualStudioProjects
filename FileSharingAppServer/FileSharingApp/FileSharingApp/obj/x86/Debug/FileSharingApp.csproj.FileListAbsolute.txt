@@ -15,3 +15,5 @@ C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingApp\FileSharingA
 C:\Users\blake\Documents\Visual Studio 2015\Projects\FileSharingApp\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.csproj.GenerateResource.Cache
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingApp\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.exe
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingApp\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.pdb
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.exe
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.pdb

@@ -1,19 +1,24 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using System.Net;
-using System.Net.Sockets;
 using System.IO;
+using System.Linq;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Net.Sockets;
+using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace ChatClient
+namespace FileSharingApp
 {
     public partial class Form1 : Form
     {
+        private static string shortFileName = "";
+        private static string fileName = "";
         // Will hold the user name
         private string UserName = "Unknown";
         private StreamWriter swSender;
@@ -27,6 +32,10 @@ namespace ChatClient
         private IPAddress ipAddr;
         private bool Connected;
 
+
+
+
+
         public Form1()
         {
             // On application exit, don't forget to disconnect first
@@ -34,7 +43,6 @@ namespace ChatClient
             InitializeComponent();
         }
 
-        // The event handler for application exit
         public void OnApplicationExit(object sender, EventArgs e)
         {
             if (Connected == true)
@@ -47,6 +55,10 @@ namespace ChatClient
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
         private void btnConnect_Click(object sender, EventArgs e)
         {
             // If we are not currently connected but awaiting to connect
@@ -60,7 +72,6 @@ namespace ChatClient
                 CloseConnection("Disconnected at user's request.");
             }
         }
-
         private void InitializeConnection()
         {
             // Parse the IP address from the TextBox into an IPAddress object
@@ -90,7 +101,6 @@ namespace ChatClient
             thrMessaging = new Thread(new ThreadStart(ReceiveMessages));
             thrMessaging.Start();
         }
-
         private void ReceiveMessages()
         {
             // Receive the response from the server
@@ -175,27 +185,59 @@ namespace ChatClient
             }
         }
 
-        private void txtIp_TextChanged(object sender, EventArgs e)
-        {
 
+
+
+        private void btnBrowse_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.Title = "File Sharing Client";
+            dlg.ShowDialog();
+            txtFile.Text = dlg.FileName;
+            fileName = dlg.FileName;
+            shortFileName = dlg.SafeFileName;
         }
 
-        private void lblServer_Click(object sender, EventArgs e)
+        private void btnSendFile_Click(object sender, EventArgs e)
         {
-
+            if (txtIp.Text != "0.0.0.0")
+            {
+                string ipAddress = txtIp.Text;
+                int port = int.Parse(txtPort.Text);
+                string fileName = txtFile.Text;
+                Task.Factory.StartNew(() => SendFile(ipAddress, port, fileName, shortFileName));
+                MessageBox.Show("File Sent");
+            }else
+            {
+                MessageBox.Show("Please Connect With A Valid IP Address");
+            }
         }
 
-        private void txtMessage_TextChanged(object sender, EventArgs e)
+        public void SendFile(string remoteHostIP, int remoteHostPort, string longFileName, string shortFileName)
         {
-
+            try
+            {
+                if (!string.IsNullOrEmpty(remoteHostIP))
+                {
+                    byte[] fileNameByte = Encoding.ASCII.GetBytes(shortFileName);
+                    byte[] fileData = File.ReadAllBytes(longFileName);
+                    byte[] clientData = new byte[4 + fileNameByte.Length + fileData.Length];
+                    byte[] fileNameLen = BitConverter.GetBytes(fileNameByte.Length);
+                    fileNameLen.CopyTo(clientData, 0);
+                    fileNameByte.CopyTo(clientData, 4);
+                    fileData.CopyTo(clientData, 4 + fileNameByte.Length);
+                    TcpClient clientSocket = new TcpClient(remoteHostIP, remoteHostPort);
+                    NetworkStream networkStream = clientSocket.GetStream();
+                    networkStream.Write(clientData, 0, clientData.GetLength(0));
+                    networkStream.Close();
+                }
+            }
+            catch
+            {
+            }
         }
 
-        private void txtLog_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblName_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

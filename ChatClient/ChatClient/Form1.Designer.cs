@@ -55,6 +55,7 @@ namespace ChatClient
             this.txtIp.Size = new System.Drawing.Size(128, 20);
             this.txtIp.TabIndex = 1;
             this.txtIp.Text = "192.168.1.101";
+            this.txtIp.TextChanged += new System.EventHandler(this.txtIp_TextChanged);
             // 
             // lblServer
             // 
@@ -64,6 +65,7 @@ namespace ChatClient
             this.lblServer.Size = new System.Drawing.Size(54, 13);
             this.lblServer.TabIndex = 2;
             this.lblServer.Text = "Server IP:";
+            this.lblServer.Click += new System.EventHandler(this.lblServer_Click);
             // 
             // btnSend
             // 
@@ -83,6 +85,7 @@ namespace ChatClient
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(194, 20);
             this.txtMessage.TabIndex = 4;
+            this.txtMessage.TextChanged += new System.EventHandler(this.txtMessage_TextChanged);
             this.txtMessage.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMessage_KeyPress);
             // 
             // txtLog
@@ -95,6 +98,7 @@ namespace ChatClient
             this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtLog.Size = new System.Drawing.Size(275, 282);
             this.txtLog.TabIndex = 5;
+            this.txtLog.TextChanged += new System.EventHandler(this.txtLog_TextChanged);
             // 
             // lblName
             // 
@@ -104,6 +108,7 @@ namespace ChatClient
             this.lblName.Size = new System.Drawing.Size(63, 13);
             this.lblName.TabIndex = 6;
             this.lblName.Text = "User Name:";
+            this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // txtUser
             // 
@@ -112,6 +117,7 @@ namespace ChatClient
             this.txtUser.Size = new System.Drawing.Size(128, 20);
             this.txtUser.TabIndex = 7;
             this.txtUser.Text = "Tobias Funke";
+            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             // 
             // Form1
             // 

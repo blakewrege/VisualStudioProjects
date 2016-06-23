@@ -1,0 +1,7 @@
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.exe
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.pdb
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingApp.Properties.Resources.resources
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\obj\x86\Debug\FileSharingAppServer.csproj.GenerateResource.Cache
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\bin\Debug\FileSharingApp.exe
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\bin\Debug\FileSharingApp.pdb
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\FileSharingAppServer\FileSharingApp\FileSharingApp\obj\x86\Debug\Chatserver.Form1.resources

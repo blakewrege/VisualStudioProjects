@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSharingAppServer", "FileSharingApp\FileSharingAppServer.csproj", "{7A70AACA-B9EA-4877-B1D1-2D495D1F4846}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSharingAppServer", "FileSharingAppServer\FileSharingAppServer.csproj", "{7A70AACA-B9EA-4877-B1D1-2D495D1F4846}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

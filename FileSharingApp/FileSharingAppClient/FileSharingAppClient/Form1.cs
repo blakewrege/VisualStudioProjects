@@ -1,6 +1,4 @@
-﻿using LibGit2Sharp;
-using LibGit2Sharp.Handlers;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -287,35 +285,11 @@ namespace FileSharingAppClient
             if (test == 1)
             {
                 MessageBox.Show("Your software needs to be updated");
-                gitPull();
             }
             else
             {
                 MessageBox.Show("You are up to date");
-            }
-
-        }
-
-        private void gitPull()
-        {
-            var path = AppDomain.CurrentDomain.BaseDirectory;
-
-            using (var repo = new Repository(path))
-            {
-                LibGit2Sharp.PullOptions options = new LibGit2Sharp.PullOptions();
-                options.FetchOptions = new FetchOptions();
-                options.FetchOptions.CredentialsProvider = new CredentialsHandler(
-                    (url, usernameFromUrl, types) =>
-                        new UsernamePasswordCredentials()
-                        {
-                            Username = "gigglesbw4",
-                            Password = "Starwars3"
-                        });
-                repo.Network.Pull(new Signature(UserName, "blakewrege1@gmail.com", new DateTimeOffset(DateTime.Now)), options);
-            }
-
-
-
+            }   
 
         }
 

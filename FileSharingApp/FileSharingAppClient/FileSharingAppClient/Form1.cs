@@ -291,7 +291,7 @@ namespace FileSharingAppClient
             }
             else
             {
-                MessageBox.Show("You are up to date");
+                MessageBox.Show("You are up to date\n Version: "+ myversion);
             }   
 
         }

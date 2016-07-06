@@ -2,6 +2,7 @@
 using LibGit2Sharp.Handlers;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,12 @@ namespace Updater
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Killing FileSharingApp");
+            Process.Start("cmd", "/C Taskkill /IM FileSharingAppClient.exe /F").WaitForExit();
+            Process.Start("cmd", "/C Taskkill /IM FileSharingAppServer.exe /F").WaitForExit();
+            Console.WriteLine("Updating FileSharingApp");
             gitPull();
+
         }
 
         private static void gitPull()

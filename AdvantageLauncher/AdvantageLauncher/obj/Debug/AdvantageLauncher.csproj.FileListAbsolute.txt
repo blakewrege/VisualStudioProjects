@@ -8,3 +8,4 @@ C:\Users\bjw\Documents\Visual Studio 2015\Projects\AdvantageLauncher\AdvantageLa
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\AdvantageLauncher\AdvantageLauncher\obj\Debug\AdvantageLauncher.exe
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\AdvantageLauncher\AdvantageLauncher\obj\Debug\AdvantageLauncher.pdb
 C:\Users\bjw\Documents\Visual Studio 2015\Projects\AdvantageLauncher\AdvantageLauncher\obj\Debug\AdvantageLauncher.csprojResolveAssemblyReference.cache
+C:\Users\bjw\Documents\Visual Studio 2015\Projects\AdvantageLauncher\AdvantageLauncher\obj\Debug\AdvantageLauncher.AboutBox1.resources

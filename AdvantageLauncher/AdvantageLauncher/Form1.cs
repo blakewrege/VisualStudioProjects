@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Management;
+using System.Net.NetworkInformation;
 
 namespace AdvantageLauncher
 {
@@ -24,7 +25,7 @@ namespace AdvantageLauncher
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            checknetwork();
         }
 
 
@@ -130,6 +131,61 @@ namespace AdvantageLauncher
         {
             Process.Start("net", "stop TabletInputService").WaitForExit();
             Process.Start("sc", "config TabletInputService start= disabled").WaitForExit();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            AboutBox1 a = new AboutBox1();
+            a.Show();
+        }
+
+        private bool checknetwork()
+        {
+            bool status = true;
+
+            status = PingHost("8.8.8.8");
+            if (status == false)
+            {
+                MessageBox.Show("No internet connection. Please connect to the internet");
+            }
+            else
+            {
+                status = PingHost("advan.thermaltech.com");
+                if (status == false)
+                {
+                    MessageBox.Show("Cannot connect to Advantage server, please make sure you are on the VPN");
+                }
+            }
+            return status;
+        }
+
+
+        public static bool PingHost(string nameOrAddress)
+        {
+            bool pingable = false;
+            Ping pinger = new Ping();
+            try
+            {
+                PingReply reply = pinger.Send(nameOrAddress);
+                pingable = reply.Status == IPStatus.Success;
+            }
+            catch (PingException)
+            {
+                // Discard PingExceptions and return false;
+            }
+            return pingable;
+        }
+
+        private void checkNetworkToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool networkstatus = checknetwork();
+            if (networkstatus == true)
+            {
+                MessageBox.Show("Successfully connected to Advantage server");
+            }
+            
+
+
         }
     }
 

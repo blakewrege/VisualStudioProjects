@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -285,6 +286,8 @@ namespace FileSharingAppClient
             if (test == 1)
             {
                 MessageBox.Show("Your software needs to be updated");
+                var path = AppDomain.CurrentDomain.BaseDirectory+"Updater.exe";
+                Process.Start(path);
             }
             else
             {

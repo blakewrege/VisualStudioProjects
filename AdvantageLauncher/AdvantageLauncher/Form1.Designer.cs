@@ -38,7 +38,7 @@ namespace AdvantageLauncher
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkNetworkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -47,6 +47,7 @@ namespace AdvantageLauncher
             // 
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripDropDownButton1,
+            this.toolStripButton2,
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
@@ -59,8 +60,7 @@ namespace AdvantageLauncher
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.onlineHelpToolStripMenuItem,
-            this.reportErrorToolStripMenuItem1,
-            this.checkNetworkToolStripMenuItem});
+            this.reportErrorToolStripMenuItem1});
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
@@ -70,14 +70,14 @@ namespace AdvantageLauncher
             // onlineHelpToolStripMenuItem
             // 
             this.onlineHelpToolStripMenuItem.Name = "onlineHelpToolStripMenuItem";
-            this.onlineHelpToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.onlineHelpToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.onlineHelpToolStripMenuItem.Text = "Online Help";
             this.onlineHelpToolStripMenuItem.Click += new System.EventHandler(this.showButton4_Click);
             // 
             // reportErrorToolStripMenuItem1
             // 
             this.reportErrorToolStripMenuItem1.Name = "reportErrorToolStripMenuItem1";
-            this.reportErrorToolStripMenuItem1.Size = new System.Drawing.Size(155, 22);
+            this.reportErrorToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.reportErrorToolStripMenuItem1.Text = "Report Error";
             this.reportErrorToolStripMenuItem1.Click += new System.EventHandler(this.showButton5_Click);
             // 
@@ -161,12 +161,14 @@ namespace AdvantageLauncher
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.showButton_Click);
             // 
-            // checkNetworkToolStripMenuItem
+            // toolStripButton2
             // 
-            this.checkNetworkToolStripMenuItem.Name = "checkNetworkToolStripMenuItem";
-            this.checkNetworkToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.checkNetworkToolStripMenuItem.Text = "Check Network";
-            this.checkNetworkToolStripMenuItem.Click += new System.EventHandler(this.checkNetworkToolStripMenuItem_Click);
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(92, 22);
+            this.toolStripButton2.Text = "Check Network";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // MainWindow
             // 
@@ -199,7 +201,7 @@ namespace AdvantageLauncher
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.ToolStripMenuItem checkNetworkToolStripMenuItem;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
     }
 }
 

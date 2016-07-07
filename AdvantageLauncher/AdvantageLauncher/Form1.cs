@@ -25,7 +25,7 @@ namespace AdvantageLauncher
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            checknetwork();
+            checknetworkdelayed();
         }
 
 
@@ -143,7 +143,7 @@ namespace AdvantageLauncher
         {
             bool status = true;
 
-            status = PingHost("8.8.8.8");
+            status = PingHost("google.com");
             if (status == false)
             {
                 MessageBox.Show("No internet connection. Please connect to the internet");
@@ -176,15 +176,27 @@ namespace AdvantageLauncher
             return pingable;
         }
 
-        private void checkNetworkToolStripMenuItem_Click(object sender, EventArgs e)
+        public void checknetworkdelayed()
+        {
+
+            System.Threading.Timer timer = null;
+            timer = new System.Threading.Timer((obj) =>
+            {
+                checknetwork();
+                timer.Dispose();
+            },
+              null, 500, System.Threading.Timeout.Infinite);
+            
+
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
         {
             bool networkstatus = checknetwork();
             if (networkstatus == true)
             {
                 MessageBox.Show("Successfully connected to Advantage server");
             }
-            
-
 
         }
     }
